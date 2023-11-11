@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="./public/img/gpay-favicon.webp" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>GPay-UI</title>
+    </head>
+    <body class="max-w-sm mx-auto bg-orange-400 ">
+        <section
+            class="bg-zinc-800">
+
+
+            <!-- Navbar -->
+
+
+            <header class="flex bg-[#361b60] justify-between items-center p-4">
+                <div class="relative">
+                    <div class="rounded-full">
+                        <input type="text" placeholder="Pay friends and merchant" class="rounded-full text-lg px-12 py-3 outline-none text-gray-300 bg-zinc-700">
+
+                    </div>
+                    <div class="absolute top-3 left-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="text-gray-300 fill-current" viewbox="0 0 24 24"><path d="M9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16Zm0-2q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z"/></svg>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://avatars.githubusercontent.com/u/148842269?v=4" alt="Abdul Rahman" class="rounded-full w-11 h-11 ">
+                </div>
+            </header>
+            <!-- Banner -->
+            <section class="flex flex-col relative">
+                <div>
+                    <img src="https://b13.com/fileadmin/_processed_/0/8/csm_ux-strategy_191-1_2c9cc8678b.png" alt="gpay Banner">
+                </div>
+
+                <div class="flex flex-col space-y-2 absolute left-32 bottom-10 text-center">
+
+                    <div>
+                        <span class="text-md text-white text-center font-semibold">
+                            Credit card reward
+                            <br>
+                            bonaza is here!
+                        </span>
+                    </div>
+                    <div>
+                        <button class="bg-zinc-800  hover:bg-orange-400 px-4 py-2 text-white rounded-full font-medium">
+                            Enter Rupay Utsav
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Pay Section -->
+            <section class="grid grid-cols-4 gap-5  p-4">
+                <div class="flex flex-col rounded-lg pt-2 pb-1 items-center justify-center space-y-1 cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Scan any<br>
+                            QR code
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1  cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Pay<br>
+                            contacts
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1  cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Pay phone<br>
+                            number
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1  cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Bank<br>
+                            transfer
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1  cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Pay UPI ID<br>
+                            or number
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1 cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Self<br>
+                            transfer
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1 cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Pay<br>
+                            bills
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center justify-center space-y-1 rounded-lg pt-2 pb-1 cursor-pointer hover:bg-gray-700">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" class="text-orange-400 " viewbox="0 0 24 24"><path fill="currentColor" d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+                    </div>
+                    <div class="text-white text-sm font-semibold text-center">
+                        <span>
+                            Mobile<br>
+                            recharge
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- UPI ID -->
+            <section>
+                <div class="flex justify-center pb-3">
+                    <span class="bg-zinc-600 hover:text-white hover:bg-orange-400 text-gray-200 px-3 py-1 rounded-full">UPI ID: abdulrahman-1@okaxis</span>
+                </div>
+            </section>
+
+            <!-- People -->
+            <section class="px-5">
+                <h3 class="text-2xl text-gray-200">People</h3>
+                <div class="grid grid-cols-4 gap-5 py-2 bg-gray ">
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=Azhaguraj
+                                                                                            " alt="Azhaguraj" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Azhaguraj
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=gowtham
+                                                                                            " alt="micheal" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Gowtham
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=darvin
+                                                                                            " alt="darvin" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Darvin
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=manimaran
+                                                                                            " alt="manimaran" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Manimaran
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=mukilan
+                                                                                            " alt="mukilan" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Mukilan
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=mathavan
+                                                                                            " alt="Mathavan" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Mathavan
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=Ganeshsan
+                                                                                            " alt="Ganeshan" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Ganeshan
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer  pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div class="w-14 h-14 flex bg-gray-700 justify-center items-center  relative rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" class="absolute bottom-2 text-gray-200" height="32" viewbox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4l-6 6Z"/></svg>
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                More
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Business -->
+            <section class="p-5">
+                <div class="text-gray-200 flex justify-between">
+                    <h3 class="text-2xl ">Business</h3>
+
+                    <div class="relative flex items-center justify-center">
+                        <button class="pr-3 pl-8 text-lg hover:bg-orange-400 rounded-full bg-blue-400 font-semibold">
+                            Explore
+                        </button>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="absolute top-1 left-2" viewbox="0 0 24 24"><path fill="currentColor" d="M6 22q-.825 0-1.413-.588T4 20V8q0-.825.588-1.413T6 6h2q0-1.65 1.175-2.825T12 2q1.65 0 2.825 1.175T16 6h2q.825 0 1.413.588T20 8v12q0 .825-.588 1.413T18 22H6Zm0-2h12V8h-2v2q0 .425-.288.713T15 11q-.425 0-.713-.288T14 10V8h-4v2q0 .425-.288.713T9 11q-.425 0-.713-.288T8 10V8H6v12Zm4-14h4q0-.825-.588-1.413T12 4q-.825 0-1.413.588T10 6ZM6 20V8v12Z"/></svg>
+                    </div>
+
+
+                </div>
+                <div class="grid grid-cols-4 gap-5 py-2 bg-gray ">
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=H+p
+                                                                                            " alt="hp petrol" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                HP Petrol
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=K+F+C
+                                                                                            " alt="KFC" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                KFC Fried..
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=Italia+bakery
+                                                                                            " alt="italian bakery" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Italiyan B..
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer  pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div class="w-14 h-14 flex bg-gray-700 justify-center items-center  relative rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" class="absolute bottom-2 text-gray-200" height="32" viewbox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4l-6 6Z"/></svg>
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                More
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Bills and Recharge -->
+            <section class="px-5 ">
+                <div class="text-gray-200">
+                    <h3 class="text-2xl ">Bills & recharges</h3>
+                    <p class="text-md py-1">No bill due. Try adding these!</p>
+
+                </div>
+                <div class="grid grid-cols-4 gap-5 py-2 bg-gray ">
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-1 flex flex-col items-center">
+                        <div class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="text-gray-200" viewBox="0 0 24 24"><path fill="currentColor" d="M8 21v-2H4q-.825 0-1.413-.588T2 17V5q0-.825.588-1.413T4 3h16q.825 0 1.413.588T22 5v12q0 .825-.588 1.413T20 19h-4v2H8Zm-4-4h16V5H4v12Zm0 0V5v12Z"/></svg>
+                        </div>
+                        <div class="text-center ">
+                            <span class="text-white text-md font-semibold ">
+                                DTH/Cable <br>TV
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-1 flex flex-col items-center">
+                        <div class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="text-gray-200 fill-current" viewBox="0 0 48 48"><g ><path d="m25 12l-6 9h4v6l6-9h-4v-6Z"/><path fill-rule="evenodd" d="M37.91 19.273a13.567 13.567 0 0 1-2.983 7.015C33.965 27.463 31.52 30.82 31 33H17c-.52-2.182-2.968-5.539-3.93-6.715a13.568 13.568 0 0 1-2.98-7.017a13.47 13.47 0 0 1 1.292-7.494a13.814 13.814 0 0 1 5.166-5.67A14.215 14.215 0 0 1 24.002 4c2.638 0 5.222.73 7.454 2.107a13.813 13.813 0 0 1 5.164 5.671a13.47 13.47 0 0 1 1.29 7.495ZM29.583 31H18.416c-.426-.983-.995-1.968-1.525-2.805a34.85 34.85 0 0 0-2.272-3.175a11.568 11.568 0 0 1-2.542-5.983a11.469 11.469 0 0 1 1.1-6.382a11.814 11.814 0 0 1 4.42-4.848A12.215 12.215 0 0 1 24.002 6c2.27 0 4.49.629 6.405 1.81a11.813 11.813 0 0 1 4.418 4.848a11.469 11.469 0 0 1 1.098 6.383a11.568 11.568 0 0 1-2.544 5.981a34.413 34.413 0 0 0-2.271 3.175c-.53.837-1.098 1.82-1.524 2.803Z" clip-rule="evenodd"/><path d="M17 36a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H18a1 1 0 0 1-1-1Z"/><path fill-rule="evenodd" d="M17 39h14v3a2 2 0 0 1-2 2H19a2 2 0 0 1-2-2v-3Zm2 2h10v1H19v-1Z" clip-rule="evenodd"/></g></svg>
+                            
+                        </div>
+                        <div class="text-center ">
+                            <span class="text-white text-md font-semibold ">
+                                Electricity
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-1 flex flex-col items-center">
+                        <div class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="text-gray-200 fill-current" viewBox="0 0 24 24"><path fill="currentColor" d="M10 15q-.425 0-.713-.288T9 14v-.5q0-1.25.875-2.125T12 10.5h1V9.1q0-.175.15-.238t.275.063l2.225 2.225q.15.15.15.35t-.15.35l-2.225 2.225q-.125.125-.275.062T13 13.9v-1.4h-1q-.425 0-.713.287T11 13.5v.5q0 .425-.288.713T10 15Zm-3 8q-.825 0-1.413-.588T5 21V3q0-.825.588-1.413T7 1h10q.825 0 1.413.588T19 3v18q0 .825-.588 1.413T17 23H7Zm0-3v1h10v-1H7Zm0-2h10V6H7v12ZM7 4h10V3H7v1Zm0 0V3v1Zm0 16v1v-1Z"/></svg>
+                        </div>
+                        <div class="text-center ">
+                            <span class="text-white text-md font-semibold ">
+                               Postpaid <br>mobile
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-1 flex flex-col items-center">
+                        <div class="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="text-gray-200 fill-current" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M20 3h-2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-4 1H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h11"/><path d="M12 8H6v3h6zm0 6v.01M9 14v.01M6 14v.01M12 17v.01M9 17v.01M6 17v.01"/></g></svg>
+                        </div>
+                        <div class="text-center ">
+                            <span class="text-white text-md font-semibold ">
+                                Broadband<br>/ Landline
+                            </span>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+                  <div class="text-center pt-2">
+                    <button class="text-blue-400 font-medium text-lg  px-4 py-1 outline outline-1 hover:outline-none hover:bg-orange-400 hover:text-white rounded-xl">See all</button>
+                  </div>
+            </section>
+
+            <!--Offers and rewards-->
+            <section class="p-5">
+                <div class="text-gray-200 flex justify-between">
+                    <h3 class="text-2xl ">Offers & rewards</h3>
+
+                </div>
+                <div class="grid grid-cols-4 gap-5 py-2 bg-gray ">
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=H+p
+                                                                                            " alt="hp petrol" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                HP Petrol
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=K+F+C
+                                                                                            " alt="KFC" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                KFC Fried..
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer hover:bg-gray-700 pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div>
+                            <img src="https://ui-avatars.com/api/?background=random&name=Italia+bakery
+                                                                                            " alt="italian bakery" class="rounded-full w-14">
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                Italiyan B..
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer  pt-2 pb-1 rounded-lg space-y-0.5 flex flex-col items-center">
+                        <div class="w-14 h-14 flex bg-gray-700 justify-center items-center  relative rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" class="absolute bottom-2 text-gray-200" height="32" viewbox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4l-6 6Z"/></svg>
+                        </div>
+                        <div>
+                            <span class="text-white text-md font-semibold text-center">
+                                More
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+    </body>
+</html>
